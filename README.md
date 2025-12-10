@@ -19,29 +19,36 @@ This repository contains all code, processed data, and figures used in the final
 
 ## 🗂 Project Structure
 
+## 📁 Project Structure
+
 guiyang_tone_sandi/
 │
 ├── data/
-│   ├── raw/                          # Original audio + stimuli
-│   ├── processed/                    # Cleaned data, tone labels, sandhi tables,textgrid
-│   └── figures/                      # All generated plots
+│ ├── raw/ # Original audio + stimuli
+│ │ ├── audio/
+│ │ └── stimuli/
+│ ├── processed/ # Cleaned data, tone labels, sandhi tables, textgrid
+│ │ ├── textgrid/
+│ │ └── *.csv
+│ └── figures/ # All generated plots
 │
 ├── src/
-│   ├── extract_f0_from_textgrid.py          # Step 1: F0 extraction
-│   ├── label_tones_5degree.py               # Step 2: convert F0 → 5-degree tones
-│   ├── summarize_citation_tones.py          # Step 3: determine citation tone values
-│   ├── derive_sandhi_with_manual_tones.py   # Step 4: build sandhi dataset
-│   ├── summarize_AA_sandhi_clean.py         # Step 5: clean / summarize AA sandhi table
-│   ├── analyze_AA_sandhi.py                 # Step 6: exploratory analysis (statistics)
-│   ├── plot_tone_sandhi_all.py              # Step 7: generate all sandhi figures
-│   ├── build_sandhi_model.py                # Step 8: compute P(surface | citation, position)
-│   ├── simulate_sandhi.py                   # Step 9: Monte Carlo simulation
-│   └── compare_sim_vs_empirical.py          # Step 10: compare simulated vs empirical result
+│ ├── extract_f0_from_textgrid.py # Step 1: F0 extraction
+│ ├── label_tones_5degree.py # Step 2: convert F0 → 5-degree tones
+│ ├── summarize_citation_tones.py # Step 3: determine citation tones
+│ ├── derive_sandhi_with_manual_tones.py # Step 4: build sandhi dataset
+│ ├── summarize_AA_sandhi_clean.py # Step 5: clean & summarize AA sandhi table
+│ ├── analyze_AA_sandhi.py # Step 6: exploratory statistics
+│ ├── plot_tone_sandhi_all.py # Step 7: generate all sandhi figures
+│ ├── build_sandhi_model.py # Step 8: compute P(surface | citation, position)
+│ ├── simulate_sandhi.py # Step 9: Monte Carlo simulation
+│ └── compare_sim_vs_empirical.py # Step 10: compare simulation vs empirical data
 │
 ├── report/
-│   └── Tone_Sandhi_Report.pdf               # Final written report
+│ ├── Guiyang_Mandarin_Tone_Sandhi_Report.pdf # Final written report
 │
 └── README.md
+
 
 ---
 
