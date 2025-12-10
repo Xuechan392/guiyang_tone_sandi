@@ -1,10 +1,3 @@
 # Data Directory
 
-This folder will contain:
-
-- `simulated_data_clean.csv` — clean synthetic tone sequences.
-- `simulated_data_noisy.csv` — tone sequences with noise injected.
-- `simulated_data_missing.csv` — datasets with missing tone labels for robustness experiments.
-
-All datasets are generated programmatically by `src/simulate_data.py`.  
-No real speaker data are stored here.
+The stimuli is not the final version so I am sure there will be more data coming in for future use, so I will keep this readme to help record my corpus collection.

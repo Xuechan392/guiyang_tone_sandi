@@ -1,0 +1,133 @@
+Single syllable
+妈  
+麻  
+马  
+骂  
+花  
+瓜  
+家  
+高  
+多  
+刀  
+天  
+头  
+牛  
+来  
+蓝  
+狼  
+二  
+你  
+我  
+他  
+人  
+山  
+水  
+饭  
+米  
+豆
+
+Double syllable
+Noun
+豆 米  
+花 籽  
+石 头  
+牛 肉  
+面 条  
+青 菜  
+书 包  
+衣 服  
+桌 子  
+门 锁  
+房 间  
+杯 子  
+手 机
+
+Verb
+吃 饭  
+喝 水  
+买 菜  
+走 路  
+看 书  
+洗 手  
+坐 车  
+抓 鱼  
+煮 豆  
+切 菜
+
+Noun Phrase
+大 房  
+小 狗  
+黑 米  
+长 衫  
+短 裙  
+高 楼
+
+Triple Syllable
+吃 豆 米  
+买 菜 市  
+三 轮 车  
+贵 阳 市  
+小 蓝 车  
+大 黄 牛  
+高 山 花  
+三 个 人  
+两 个 狗
+
+Duplication
+天 天
+个 个（娃 儿）
+笨 笨
+慢 慢
+铲 铲
+汤 汤 水 水
+
+
+ABB
+疯 扯 扯
+黑 黢 黢
+莽 嘟 嘟
+
+
+
+
+Tone–Morpheme Interface
+addressing_family
+爸 爸
+妈 妈
+姐 姐
+妹 妹
+哥 哥
+弟 弟
+爷 爷
+奶 奶
+公 公
+婆 婆（grandma）
+婆 婆（mother in law）
+老 婆 婆（mother in law）
+老 公 公（father in law）
+舅 舅
+嬢 嬢
+伯 伯
+
+number_measure_noun
+一 个 人  
+三 个 菜  
+五 个 车  
+两 只 鸟  
+三 碗 飯  
+两 块 肉
+
+tone_morpheme_syntax
+吃 过 饭  
+走 到 家  
+买 起 菜  
+看 咯 书  
+去 过 贵 阳  
+吃 到 豆 米
+
+Sentence
+我 买 豆 米  
+他 喝 青 菜 汤  
+我 们 去 贵 阳 市  
+今 天 下 小 雨  
+他 家 有 黄 牛

@@ -1,0 +1,50 @@
+Single syllable
+妈  
+麻  
+马  
+骂
+ 
+花    
+高  
+多   
+天
+  
+头  
+牛  
+人     
+狼 
+ 
+ 
+你  
+我
+米
+水 
+ 
+ 
+ 
+饭
+菜   
+豆
+二 
+
+Tone–Morpheme Interface
+Kinship_terms
+爸 爸(dad)
+妈 妈(mom)
+姐 姐(older sister)
+妹 妹(younger sister)
+哥 哥(older brother)
+弟 弟(younger brother)
+爷 爷(grandpa on dad's side)
+奶 奶(grandma on dad's side)
+公 公(grandpa on mom's side)
+姑 姑(dad's sister)
+叔 叔(uncle)
+婆 婆（grandma）
+婆 婆（mother in law）
+老 婆 婆（mother in law）
+老 公 公（father in law）
+祖 祖(great grandparent)
+舅 舅(mom's brother)
+嬢 嬢(untie)
+伯 伯(older uncle)
