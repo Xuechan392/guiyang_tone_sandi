@@ -19,34 +19,41 @@ This repository contains all code, processed data, and figures used in the final
 
 ## 🗂 Project Structure
 
-## 📁 Project Structure
-
+```text
 guiyang_tone_sandi/
-│
 ├── data/
-│ ├── raw/ # Original audio + stimuli
-│ │ ├── audio/
-│ │ └── stimuli/
-│ ├── processed/ # Cleaned data, tone labels, sandhi tables, textgrid
-│ │ ├── textgrid/
-│ │ └── *.csv
-│ └── figures/ # All generated plots
-│
+│   ├── raw/                          # Original audio + stimuli
+│   │   ├── audio/                    # Original wav files
+│   │   └── stimuli/                  # Stimulus lists (txt)
+│   ├── processed/                    # Cleaned data, tone labels, sandhi tables, TextGrid
+│   │   ├── textgrid/                 # Praat TextGrid files
+│   │   ├── f0_with_T_values.csv      # Step 2 output: F0 + T-values
+│   │   ├── f0_with_T_values_labeled.csv
+│   │   ├── citation_tone_summary.csv
+│   │   ├── kinship_tones_with_sandhi_info.csv
+│   │   ├── AA_sandhi_all_words.csv
+│   │   ├── AA_sandhi_summary_char.csv
+│   │   ├── AA_sandhi_summary_global.csv
+│   │   ├── sandhi_prob_model.csv     # Step 8 output: P(surface | citation, position)
+│   │   └── sandhi_simulation.csv     # Step 9 output: Monte Carlo samples
+│   └── figures/                      # All generated plots + report figures
+│       ├── AA_surface_tone_by_position.png
+│       ├── AA_sandhi_citation_to_surface_matrix.png
+│       ├── AA_sandhi_per_character.png
+│       └── sim_vs_empirical.png
 ├── src/
-│ ├── extract_f0_from_textgrid.py # Step 1: F0 extraction
-│ ├── label_tones_5degree.py # Step 2: convert F0 → 5-degree tones
-│ ├── summarize_citation_tones.py # Step 3: determine citation tones
-│ ├── derive_sandhi_with_manual_tones.py # Step 4: build sandhi dataset
-│ ├── summarize_AA_sandhi_clean.py # Step 5: clean & summarize AA sandhi table
-│ ├── analyze_AA_sandhi.py # Step 6: exploratory statistics
-│ ├── plot_tone_sandhi_all.py # Step 7: generate all sandhi figures
-│ ├── build_sandhi_model.py # Step 8: compute P(surface | citation, position)
-│ ├── simulate_sandhi.py # Step 9: Monte Carlo simulation
-│ └── compare_sim_vs_empirical.py # Step 10: compare simulation vs empirical data
-│
+│   ├── extract_f0_from_textgrid.py       # Step 1: F0 extraction
+│   ├── label_tones_5degree.py            # Step 2: convert F0 → 5-degree tones
+│   ├── summarize_citation_tones.py       # Step 3: determine citation tone values
+│   ├── derive_sandhi_with_manual_tones.py# Step 4: build AA sandhi dataset
+│   ├── summarize_AA_sandhi_clean.py      # Step 5: clean / summarize AA sandhi table
+│   ├── analyze_AA_sandhi.py              # Step 6: exploratory analysis (statistics)
+│   ├── plot_tone_sandhi_all.py           # Step 7: generate all sandhi figures
+│   ├── build_sandhi_model.py             # Step 8: compute P(surface | citation, position)
+│   ├── simulate_sandhi.py                # Step 9: Monte Carlo simulation
+│   └── compare_sim_vs_empirical.py       # Step 10: compare simulated vs empirical result
 ├── report/
-│ ├── Guiyang_Mandarin_Tone_Sandhi_Report.pdf # Final written report
-│
+│   └── Guiyang_Mandarin_Tone_Sandhi_Report.pdf   # Final written report
 └── README.md
 
 
